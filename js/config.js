@@ -33,9 +33,9 @@ let respecConfig = {
   editors:
     [
       {
-        name: "Wilko Quak",
+        name: "TPOD-Team",
         company: "Geonovum",
-        companyURL: "https://www.geonovum.nl/"
+        companyURL: "https://www.geonovum.nl",
       }
     ],
   //-- de namen van de auteur(s) ------------------------------------------------------
@@ -43,18 +43,9 @@ let respecConfig = {
   authors:
     [
       {
-        name: "Richard de Graaf",
+        name: "TPOD-Team",
         company: "Geonovum",
-        companyURL: "https://www.geonovum.nl/"
-      },
-      {
-        name: "Nienke Jansen",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl/"
-      },
-      {
-        name: "Wilko Quak",
-        company: "Geonovum"
+        companyURL: "https://www.geonovum.nl",
       }
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
