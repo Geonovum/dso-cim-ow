@@ -1,6 +1,10 @@
 ## Overzicht objecttypen
 
 
+<aside class="note">
+Dit hoofdstuk gaat verdwijnen en alle teksten die erin staan worden naar de catalogus verplaatst.
+</aside>
+
 #### Toelichting op artikel-gestructureerde objecten
 
 Artikel-gestructureerde objecttypen komen voor bij omgevingsdocumenten die regels bevatten, dit zijn bijvoorbeeld: een omgevingsplan, een omgevingsverordening, een algemene maatregel van bestuur (AMvB), een ministeriële regeling (MR) of een waterschapsverordening.
