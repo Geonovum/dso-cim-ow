@@ -1,5 +1,9 @@
 ## Overzicht kenmerken
 
+<aside class="note">
+Dit hoofdstuk gaat verdwijnen en alle teksten die erin staan worden naar de catalogus verplaatst.
+</aside>
+
 Dit hoofdstuk geeft een overzicht van alle onderkende kenmerken van de in de vorige bladzijden genoemde objecttypes. Deze kenmerken zijn gemodelleerd als attribuutsoorten, gegevensgroepen en relaties. Verder is van elk kenmerk het datatype aangegeven (in geel, en zijn verder uitgelegd in <a href='#_Ref39048559'>0<a></a>). De objecttypen zijn gegroepeerd per bij elkaar horende objecttypen, vaak herkenbaar aan dezelfde kleur.
 
 ### Toelichting juridische kenmerken en verplichte informatie
