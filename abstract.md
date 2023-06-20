@@ -1,1 +1,1 @@
-Dit zijn de conceptuele modellen van het DSO.
+Dit document beschrijft het Conceptueel Informatiemodel Omgevingswet.

@@ -1,4 +1,4 @@
-## Inleiding<a name='_Hlk876967'></a>
+## Inleiding</a>
 
 Het motto van de Omgevingswet is ‘Ruimte voor ontwikkeling, waarborgen voor kwaliteit’. De Omgevingswet staat voor een goede balans tussen het benutten en beschermen van de fysieke leefomgeving. Met benutten wordt bedoeld het doelmatig beheren, gebruiken en ontwikkelen van de fysieke leefomgeving om maatschappelijke behoeften te vervullen. Bij beschermen gaat het over het bereiken en in stand houden van een veilige en gezonde fysieke leefomgeving en een goede omgevingskwaliteit.
 
@@ -12,11 +12,6 @@ Er is een sterke relatie met dit conceptuele informatiemodel omgevingswet (CIMOW
 
 Dit CIM bestaat uit een beschrijving van de informatie, in tekst en unified modeling language (UML) en is object-georiënteerd. De beschrijving volgt hierbij een standaard voor het beschrijven van informatiemodellen, te weten het metamodel voor informatiemodellen (MIM<span class='noot'>[1]<span class='noottekst'> https://docs.geostandaarden.nl/mim/mim10/ (versie 1.0.1 in 2019)<br/></span></span>).
 
-De beschrijving van dit CIM bestaat uit twee delen:
-
-<ol><li>Een overzicht van de objecttypen (Hoofdstuk 2);</li>
-<li>Een overzicht van de kenmerken van de objecttypen (Hoofdstuk 3);</li>
-</ol>
 
 ### Toepassingsgebied
 
@@ -26,24 +21,22 @@ Het CIMOW beschrijft sec de informatie, hoe en waar deze informatie precies gebr
 
 In de context van Omgevingswet zijn, naast het CIMOW, ook de volgende informatiedomeinen aan de orde:
 
-<ul><li>standaard officiële overheidspublicaties (STOP)</li>
-<li>standaard toepasbare regels (STTR)</li>
-<li>standaard aanvragen en meldingen (STAM)</li>
-<li>de bestuurlijke indeling (BI) gerealiseerd door de ambtsgebiedenvoorziening/bestuurlijke grenzen API</li>
-</ul>
+ - standaard officiële overheidspublicaties (STOP)
+ - standaard toepasbare regels (STTR)
+ - standaard aanvragen en meldingen (STAM)
+ - de bestuurlijke indeling (BI) gerealiseerd door de ambtsgebiedenvoorziening/bestuurlijke grenzen API
+
 
 Het rijk, de provincies, de gemeenten en de waterschappen zijn de partijen die gegevens beschikbaar stellen aan het DSO, deze partijen worden ook wel bevoegde gezagen genoemd. Bevoegde gezagen en het DSO gaan bij de Omgevingswet integreren op basis van de concepten beschreven in het CIMOW. Hiertoe speelt het CIMOW een centrale rol bij de inrichting van de informatievoorziening, door het bieden van centrale informatiedefinities.
 
 ### Scope
 
-<ul><li>CIMOW bevat minimaal alle Omgevingswet-gerelateerde informatie die uitgewisseld wordt in de keten van plan tot publicatie</li>
-</ul>
+CIMOW bevat minimaal alle Omgevingswet-gerelateerde informatie die uitgewisseld wordt in de keten van plan tot publicatie.
 
-<b>Buiten scope</b>
+Buiten scope
 
-<ul><li>CIMOW beschrijft niet het domein van officiële overheidspublicaties (OP) zelf. Concepten zoals <i>artikel</i> of <i>lid</i> zijn wel relevant voor het DSO, maar staan in IMOP gedefinieerd en niet in CIMOW.</li>
-<li>Gegevens ten behoeve van de implementatie van het informatiemodel, zoals een aanlevermanifest.</li>
-</ul>
+ - CIMOW beschrijft niet het domein van officiële overheidspublicaties (OP) zelf. Concepten zoals <i>artikel</i> of <i>lid</i> zijn wel relevant voor het DSO, maar staan in IMOP gedefinieerd en niet in CIMOW.
+ - Gegevens ten behoeve van de implementatie van het informatiemodel, zoals een aanlevermanifest.
 
 ### Toelichting bij informatiekundig perspectief
 
@@ -55,22 +48,15 @@ Bijvoorbeeld, wanneer in de juridische tekst een juridische regel aanwezig is di
 
 In informatiekundig opzicht betekent dit:
 
-<ul><li>een juridische regel – te weten de tekst van de juridische regel<ul><li>een relatie naar een locatie/gebied, in de fysieke leefomgeving, waar de regel in werking is</li>
-</ul>
+ - een juridische regel – te weten de tekst van de juridische regel
+     - een relatie naar een locatie/gebied, in de fysieke leefomgeving, waar de regel in werking is
+ - een gebied (in de fysieke leefomgeving) met een geometrie (van het centrumgebied)
+ - een gebiedsaanwijzing van het type functie – centrumgebied
+     - een relatie tussen de juridische regel en de gebiedsaanwijzing
+     - een relatie naar een locatie/gebied, in de fysieke leefomgeving, waar de functie voor geldt
+ - een activiteit – wonen 
+     - een relatie tussen de juridische regel en de activiteit
+     - een relatie naar een locatie/gebied, in de fysieke leefomgeving, waar de activiteit voor geldt.
 
-</li>
-<li>een gebied (in de fysieke leefomgeving) met een geometrie (van het centrumgebied)</li>
-<li>een gebiedsaanwijzing van het type functie – centrumgebied<ul><li>een relatie tussen de juridische regel en de gebiedsaanwijzing</li>
-<li>een relatie naar een locatie/gebied, in de fysieke leefomgeving, waar de functie voor geldt</li>
-</ul>
-
-</li>
-<li>een activiteit – wonen<ul><li>een relatie tussen de juridische regel en de activiteit</li>
-<li>een relatie naar een locatie/gebied, in de fysieke leefomgeving, waar de activiteit voor geldt</li>
-</ul>
-
-</li>
-</ul>
-
-Er wordt in het CIMOW een verschil gemaakt tussen de activiteit met de naam ‘wonen’ en het woord ‘wonen’ dat voorkomt in de tekst van de juridische regel. Zo is ook het centrumgebied uit de tekst van de juridische regel een ander object dan de gebiedsaanwijzing van het centrumgebied. <a name='_Ref38297413'></a>
+Er wordt in het CIMOW een verschil gemaakt tussen de activiteit met de naam ‘wonen’ en het woord ‘wonen’ dat voorkomt in de tekst van de juridische regel. Zo is ook het centrumgebied uit de tekst van de juridische regel een ander object dan de gebiedsaanwijzing van het centrumgebied.
 
