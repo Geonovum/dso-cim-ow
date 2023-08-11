@@ -1,6 +1,6 @@
-# Conceptueeel Informatiemodel Omgevingswet
+# Conceptueel Informatiemodel Omgevingswet
 
-Dit is het readme bestand van het GIT repository waarin het CIM-ORG wordt beheerd. Dit is één van de conceptuele informatiemodellen van het [DSO](https://aandeslagmetdeomgevingswet.nl/implementatie/digitaal-stelsel/).
+Dit is het readme bestand van het GIT repository waarin het CIM-OW wordt beheerd. Dit is één van de conceptuele informatiemodellen van het [DSO](https://aandeslagmetdeomgevingswet.nl/implementatie/digitaal-stelsel/).
 
 Conceptuele informatiemodellen van het DSO:
 

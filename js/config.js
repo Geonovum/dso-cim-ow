@@ -11,14 +11,15 @@ let respecConfig = {
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   specType: "IM",                 // Informatie Model
+
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
-  pubDomain: "dk",
+  pubDomain: "dso",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
   licence: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "NL-ReSpec-GN-template",
+  shortName: "dso-cim-ow",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2023-03-28",
@@ -33,7 +34,7 @@ let respecConfig = {
   editors:
     [
       {
-        name: "TPOD-Team",
+        name: "TPOD team",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
@@ -43,13 +44,13 @@ let respecConfig = {
   authors:
     [
       {
-        name: "TPOD-Team",
+        name: "voornaam achternaam",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/Geonovum/dso-cim-ow",
+  github: "https://github.com/Geonovum/NL-ReSpec-GN-template",
   // Create PDF and link to file in header (optional):
   alternateFormats: [
       {
