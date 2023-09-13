@@ -16,7 +16,3 @@ Lijst van afkortingen en acroniemen die worden gehanteerd in deze
 dataspecificatie.
 
 **TODO** nader in te vullen
-
-
-
-
