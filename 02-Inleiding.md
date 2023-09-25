@@ -16,18 +16,18 @@ Dit CIM bestaat uit een beschrijving van de informatie, in tekst en UML en is ob
 
 CIM-OW bevat minimaal alle Omgevingswet-gerelateerde informatie die uitgewisseld wordt in de keten van plan tot publicatie.
 
-Buiten scope
+Buiten scope:
 
--   CIM-OW beschrijft niet het domein van officiële overheidspublicaties (OP) zelf. Concepten zoals <i>artikel</i> of <i>lid</i> zijn wel relevant voor het DSO, maar staan in IMOP gedefinieerd en niet in CIM-OW.
--   Gegevens ten behoeve van de implementatie van het informatiemodel, zoals een aanlevermanifest.
+- CIM-OW beschrijft niet het domein van officiële overheidspublicaties (OP) zelf. Concepten zoals <i>artikel</i> of <i>lid</i> zijn wel relevant voor het DSO, maar staan in IMOP gedefinieerd en niet in CIM-OW.
+- Gegevens ten behoeve van de implementatie van het informatiemodel, zoals een aanlevermanifest.
 
 ## Toelichting bij informatiekundig perspectief
 
-De Omgevingswet is een domein waarin juridische teksten, met juridische regels, en hun werkingsgebieden centraal staan. Dit CIM-OW beschouwt de informatie die hierin aanwezig is in een informatiekundig opzicht. Hiermee wordt bedoeld dat het gaat om welke informatie aanwezig is in deze tekst. Dus niet tekstgericht, maar informatiegericht.
+De Omgevingswet is een domein waarin juridische teksten, met juridische regels, en hun werkingsgebieden centraal staan. Dit CIM-OW beschouwt de informatie die hierin aanwezig is in een informatiekundig opzicht. Hiermee wordt bedoeld dat het gaat om welke informatie aanwezig is in deze tekst. 
 
 Bijvoorbeeld, wanneer in de juridische tekst een juridische regel aanwezig is die over een functie gaat en over een aantal activiteiten, zoals:
 
-> Ter plaatse van het werkingsgebied van de functie ‘ Centrumgebied’ is het verrichten van de activiteit wonen toegestaan.
+> Ter plaatse van het werkingsgebied van de functie 'Centrumgebied' is het verrichten van de activiteit wonen toegestaan.
 
 In informatiekundig opzicht betekent dit:
 
