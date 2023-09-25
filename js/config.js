@@ -58,4 +58,12 @@ let respecConfig = {
           uri: "template.pdf",
       },
   ],
+  localBiblio: {
+    "MIM": {
+      href: "https://docs.geostandaarden.nl/mim/mim/",
+      title: "MIM - Metamodel Informatie Modellering",
+      date: "17 februari 2022",
+      authors: ["Lennart van Bergen","Thies Mesdag","Marco Brattinga","Paul Janssen","Pano Maria","Johan Boe",],
+  },
+  },
 };
