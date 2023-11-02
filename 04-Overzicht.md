@@ -5,9 +5,6 @@
 Conceptueel Informatiemodel Omgevingswet (CIM-OW)
 
 
-## Normatieve referenties
-
-Het CIM-OW is geen normatief document en bevat dus geen normatieve referenties.
 
 ## Termen en definities
 
