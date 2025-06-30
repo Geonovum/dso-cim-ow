@@ -4,8 +4,6 @@
 
 Conceptueel Informatiemodel Omgevingswet (CIM-OW)
 
-
-
 ## Termen en definities
 
 <!-- 
