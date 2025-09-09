@@ -18,4 +18,5 @@
 | 2.1.0     | 07-01-2022 | In paragraaf 3.12.2.3 het document gecorrigeerd waarin de specifieke regels voor Formaat worden gedefinieerd (OP-standaard ipv IMOW-document). |
 | 2.2.0     | 24-11-2023 | WELT-267: Subtitel toegevoegd.                                                                                                                 |
 |           |            | In paragraaf 2.50 Omgevingsvergunning → Omgevingsvergunning-BOPA.                                                                              |
-| 3.0.0     |            | Herschrijving CIM-OW nadat het CIM-OP als los conceptueel model is gepubliceerd.                                                               |
+| levend    | 30-06-2025 | Compleet geherstructuureerd nadat het CIM-OP als los conceptueel model is gepubliceerd.                                                        |
+

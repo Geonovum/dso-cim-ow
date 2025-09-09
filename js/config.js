@@ -29,6 +29,7 @@ let respecConfig = {
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
   //previousPublishDate: "2014-05-01",
   //previousMaturity: "CV",
+  prevVersion: ["https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.2.0.pdf"],
   //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors:
