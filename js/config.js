@@ -27,8 +27,8 @@ let respecConfig = {
   publishVersion: "3.0",
   //previousVersion: "0.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  //previousPublishDate: "2014-05-01",
-  //previousMaturity: "CV",
+  previousPublishDate: null ,
+  previousMaturity: null,
   prevVersion: ["https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.2.0.pdf"],
   //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
@@ -52,13 +52,7 @@ let respecConfig = {
     ],
   //neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Geonovum/dso-cim-ow",
-  // Create PDF and link to file in header (optional):
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "dso-cim-ow.pdf",
-      },
-  ],
+ 
     //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
   localBiblio: 

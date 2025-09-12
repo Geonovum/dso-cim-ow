@@ -33,22 +33,6 @@ jobs:
             fi
           fi
 
-      - name: Copy pdf.js if needed
-        if: ${{ steps.config.outputs.grep == 'true' }}
-        run: cp .github/workflows/pdf.js .
-
-      - name: Generate PDF(s)
-        if: ${{ steps.config.outputs.grep == 'true' }}
-        run: |
-          cp ./js/config.js config.js
-          echo "module.exports = { respecConfig };" >> config.js
-          echo "var window = {respecMermaid:{createFigures:null}};" | cat - config.js > temp && mv temp config.js
-          npm install puppeteer
-          python3 -m http.server 8080 &
-          rm -f *.pdf
-          node pdf.js
-          mv *.pdf static/
-
       - name: Run WCAG2AA check
         run: |
           npm install -g pa11y
@@ -114,7 +98,6 @@ jobs:
           name: snapshot
           path: |
             snapshot.html
-            static/*.pdf
             media/**/*
             js/**/*
             data/**/*
