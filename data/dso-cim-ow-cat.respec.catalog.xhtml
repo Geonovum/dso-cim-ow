@@ -2,7 +2,7 @@
    <body>
       <section id="cat" class="normative">
          <h2>Gegevensdefinitie</h2>
-         <!--MIMCM-dso-cim-ow-1.0-0-20230213-20250630-154119 imvertor 4.3.0-->
+         <!--MIMCM-dso-cim-ow-1.0-0-20230213-20250912-120635 imvertor 4.4.0-->
          <section id="global_packages">
             <h3>Model   dso-cim-ow</h3>
             <section id="EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4">
@@ -196,7 +196,9 @@
                            <td>
                               
                               
-                              <p>De beschrijving van een juridische regel gericht op een gestelde omgevingswaarde.</p>
+                              <p>Regel over een omgevingswaarde als bedoeld in afdeling 2.3 Omgevingswet, die op zichzelf
+                                 alleen gericht is tot de bestuursorganen van het bevoegd gezag dat de omgevingswaarde
+                                 heeft vastgesteld.</p>
                               
                               </td>
                         </tr>
@@ -288,10 +290,11 @@
                            <td>
                               
                               
-                              <p>Pons is het object voor het omgevingsplan waarmee het bevoegd gezag aangeeft dat een
-                                 of meer delen van een bestemmingsplan dat in de overbruggingsfunctie van DSO-LV aanwezig
-                                 is, niet langer geldig zijn en dat er voor zorgt dat de overbruggingsfunctie van DSO-LV
-                                 dat deel niet meer toont.</p>
+                              <p>Pons is het OW-object voor het omgevingsplan waarmee het bevoegd gezag aangeeft dat
+                                 op de Locatie van de Pons één of meer ruimtelijke plannen, of delen daarvan, die in
+                                 de overbruggingsfunctie van DSO-LV aanwezig zijn, niet langer geldig zijn en dat er
+                                 voor zorgt dat de overbruggingsfunctie van DSO-LV die ruimtelijke plannen niet meer
+                                 toont.</p>
                               
                               </td>
                         </tr>
@@ -376,7 +379,8 @@
                            <td>
                               
                               
-                              <p>Een Juridische regel die voor eenieder werking heeft.</p>
+                              <p>Een Juridische regel die voor een ieder relevant is of relevant kan zijn en geen Instructieregel
+                                 of Omgevingswaarderegel is.</p>
                               
                               </td>
                         </tr>
@@ -619,7 +623,7 @@
                               </td>
                            <td>
                               
-                              <p>Kernachtige weergave van de grondgedachte achter een regel. Een thema kent geen locatie.</p>
+                              <p>Kernachtige weergave van de grondgedachte achter een regel.</p>
                               </td>
                            <td>
                               <a class="link" href="#global_class_Artikelstructuur_Thema">Thema</a>
@@ -689,19 +693,20 @@
                         </tr>
                         <tr>
                            <th>
-                              <a class="link" href="#detail_d52045e2774">
-                                 één type Juridische regel per Regeltekst
+                              <a class="link" href="#detail_d50981e2667">
+                                 TPOD1850
                                  </a>
                               </th>
                            <td></td>
                         </tr>
                         <tr>
                            <th>
-                              <a class="link" href="#detail_d52045e2787">
-                                 indien Artikel is onderverdeeld in Leden, annotaties alleen op Leden
+                              <a class="link" href="#detail_d50981e2680">
+                                 TPOD2060
                                  </a>
                               </th>
-                           <td></td>
+                           <td> Als een Artikel is onderverdeeld in Leden zijn annotaties alleen toegestaan op Leden.
+                              </td>
                         </tr>
                      </tbody>
                   </table>
@@ -735,13 +740,8 @@
                               
                               
                               <p>Een norm bestaat uit normwaarden waarbij een normwaarde met een locatieaanduiding
-                                 aangeeeft waar de normwaarde geldt.</p>
-                              
-                              <hr></hr>
-                              
-                              <p>
-                                 <strong>*</strong>
-                                 <em>voorbeeld</em>*: de norm maximum bouwhoogte heeft twee normwaarden (10 en 12) die beide op een aantal
+                                 aangeeeft waar de normwaarde geldt.
+                                 <strong>voorbeeld</strong>: de norm maximum bouwhoogte heeft twee normwaarden (10 en 12) die beide op een aantal
                                  locaties geldt.</p>
                               
                               </td>
@@ -771,7 +771,10 @@
                            <td>
                               <a class="link" href="#detail_attribute_Artikelstructuur_Norm_naam">naam</a>
                               </td>
-                           <td></td>
+                           <td>
+                              
+                              <p> Mensleesbare beschrijving waarmee de Norm wordt aangeduid.</p>
+                              </td>
                            <td>
                               <a class="external-link" href="https://docs.geostandaarden.nl/mim/vv-st-mim-20200225/#primitive-datatypes">Character­String</a>
                               </td>
@@ -783,7 +786,7 @@
                               </td>
                            <td>
                               
-                              <p>De eenheid van de waarde, voluit geschreven</p>
+                              <p>Aanduiding van de eenheid waarin de kwantitatieve waarde van de Norm wordt uitgedrukt.</p>
                               </td>
                            <td>
                               <a class="link" href="#global_class_Artikelstructuur_Eenheid">Eenheid</a>
@@ -796,7 +799,7 @@
                               </td>
                            <td>
                               
-                              <p>Het type van de norm.</p>
+                              <p>Nadere typering van de Norm volgens de waardelijst.</p>
                               </td>
                            <td>
                               <a class="link" href="#global_class_Artikelstructuur_Typenorm">Typenorm</a>
@@ -881,42 +884,12 @@
                            <td>Juridische regel</td>
                         </tr>
                         <tr>
-                           <th>Begrip</th>
-                           <td>
-                              De beschrijving van een regel met juridische werkingskracht.
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              OW
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Definitie</th>
                            <td>
                               
                               
                               <p>De beschrijving van een regel met juridische werkingskracht.</p>
                               
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Herkomst definitie</th>
-                           <td>
-                              OW
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Datum opname</th>
-                           <td>
-                              2-10-2018
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Populatie</th>
-                           <td>
-                              Alle juridische regels in het domein van de Omgevingswet.
                               </td>
                         </tr>
                         <tr>
@@ -927,9 +900,8 @@
                               <p>Met een juridische regel wordt niet (alleen) de tekst van de regel bedoeld, maar regel
                                  als geheel. Deze bestaat o.a. uit tekst, wat hét centrale deel is van een juridische
                                  regel, maar de juridische regel heeft ook andere kenmerken, zoals bijvoorbeeld een
-                                 idealisatie en een locatieaanduiding. Deze worden beschreven in het volgende hoofdstuk.</p>
-                              
-                              <p>Regels gelden voor een bepaalde specifieke locatie(s) in de fysieke leefomgeving,
+                                 idealisatie en een locatieaanduiding. 
+                                 Regels gelden voor een bepaalde specifieke locatie(s) in de fysieke leefomgeving,
                                  of voor een heel grondgebied een bevoegd gezag. De regels verwijzen naar deze locaties,
                                  deze verwijzing heet: <strong>locatieaanduiding</strong>. De locatie van een juridische regel kan afwijken van de activiteit, norm of gebiedsaanwijzing
                                  die gedaan wordt. In dat geval wordt daarmee gezegd: deze regel geldt voor deze locatie,
@@ -961,6 +933,11 @@
                                     alleen sprake van een juridische regel. Een voorbeeld van zo’n normstellende regel
                                     zonder een expliciete verwijzing naar informatiekundige activiteit is: “Er geldt een
                                     algemeen rookverbod in de openbare ruimtes binnen het centrumgebied van Groningen”.</li>
+                                 </ul>
+                              
+                              <ul>
+                                 
+                                 <li>* </li>
                                  </ul>
                               
                               <p>Een juridische regel wordt altijd opgesteld in de context van andere juridische regels.
@@ -996,8 +973,8 @@
                               </td>
                            <td>
                               
-                              <p>Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd
-                                 moet worden en door het bevoegd gezag bedoeld is.</p>
+                              <p>Vastlegging van de manier waarop de begrenzing van de Locatie(s) voor deze Juridische
+                                 regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is.</p>
                               </td>
                            <td>
                               <a class="link" href="#global_class_Artikelstructuur_Idealisatie">Idealisatie</a>
@@ -1661,18 +1638,6 @@
                            <td>Activiteitengroep</td>
                         </tr>
                         <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              IMOW
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Datum opname</th>
-                           <td>
-                              19-7-2019
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -1680,10 +1645,6 @@
                               <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
                               
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Data locatie</th>
-                           <td>urn:imow:Activiteitengroep</td>
                         </tr>
                      </tbody>
                   </table>
@@ -1701,18 +1662,6 @@
                            <td>Eenheid</td>
                         </tr>
                         <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              IMOW
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Datum opname</th>
-                           <td>
-                              19-7-2019
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -1720,10 +1669,6 @@
                               <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
                               
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Data locatie</th>
-                           <td>urn:imow:Eenheid</td>
                         </tr>
                      </tbody>
                   </table>
@@ -1741,12 +1686,6 @@
                            <td>Typenorm</td>
                         </tr>
                         <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              IMOW
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -1754,10 +1693,6 @@
                               <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
                               
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Data locatie</th>
-                           <td>urn:imow:Activiteitengroep</td>
                         </tr>
                      </tbody>
                   </table>
@@ -1775,18 +1710,6 @@
                            <td>Omgevingsnormgroep</td>
                         </tr>
                         <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              IMOW
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Datum opname</th>
-                           <td>
-                              19-7-2019
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -1794,10 +1717,6 @@
                               <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
                               
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Data locatie</th>
-                           <td>urn:imow:Omgevingsnormgroep</td>
                         </tr>
                      </tbody>
                   </table>
@@ -1815,18 +1734,6 @@
                            <td>Thema</td>
                         </tr>
                         <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              IMOW
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Datum opname</th>
-                           <td>
-                              19-7-2019
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -1834,10 +1741,6 @@
                               <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
                               
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Data locatie</th>
-                           <td>urn:imow:Thema</td>
                         </tr>
                      </tbody>
                   </table>
@@ -1855,18 +1758,6 @@
                            <td>Omgevingswaardegroep</td>
                         </tr>
                         <tr>
-                           <th>Herkomst</th>
-                           <td>
-                              IMOW
-                              </td>
-                        </tr>
-                        <tr>
-                           <th>Datum opname</th>
-                           <td>
-                              19-7-2019
-                              </td>
-                        </tr>
-                        <tr>
                            <th>Toelichting</th>
                            <td>
                               
@@ -1874,10 +1765,6 @@
                               <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
                               
                               </td>
-                        </tr>
-                        <tr>
-                           <th>Data locatie</th>
-                           <td>urn:imow:Omgevingswaardegroep</td>
                         </tr>
                      </tbody>
                   </table>
@@ -2030,7 +1917,7 @@
                               
                               <p>Een gegevensgroeptype is geen object. Het is een apart type modelelement om een groep
                                  van kenmerken in onder te brengen, te weten de beschrijving van de activiteitlocatieaanduiding,
-                                 de kwalificatie en de locatie waarvoor deze geldt</p>
+                                 de kwalificatie en de locatie waarvoor deze geldt.</p>
                               
                               </td>
                         </tr>
@@ -2650,7 +2537,7 @@
                                  <td>
                                     
                                     
-                                    <p>Kernachtige weergave van de grondgedachte achter een regel. Een thema kent geen locatie.</p>
+                                    <p>Kernachtige weergave van de grondgedachte achter een regel.</p>
                                     
                                     </td>
                               </tr>
@@ -2659,6 +2546,10 @@
                                  <td>
                                     <a class="link" href="#detail_class_Artikelstructuur_Thema">Thema</a>
                                     </td>
+                              </tr>
+                              <tr>
+                                 <th>Indicatie materiële historie</th>
+                                 <td>Nee</td>
                               </tr>
                               <tr>
                                  <th>Kardinaliteit</th>
@@ -2743,8 +2634,8 @@
                         </table>
                         </div>
                      
-                     <div class="deepheader" id="detail_d52045e2774">
-                        <h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> één type Juridische regel per Regeltekst</h7>
+                     <div class="deepheader" id="detail_d50981e2667">
+                        <h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> TPOD1850</h7>
                         
                         <table style="width: 100%;">
                            <colgroup style="width: 30%;"></colgroup>
@@ -2752,27 +2643,24 @@
                            <tbody>
                               <tr>
                                  <th>OCL</th>
-                                 <td>Er zijn drie subtypen van Juridische regels onderkend, namelijk: Regel voor iedereen,
-                                    instructieregel en omgevingswaarderegel. Het is niet toegestaan twee van deze typen
-                                    Juridische regel te vermengen in hetzelfde Artikel (Regeltekst).</td>
+                                 <td>Alle Juridische regels die naar dezelfde Regeltekst verwijzen moeten van hetzelfde
+                                    type zijn.</td>
                               </tr>
                            </tbody>
                         </table>
                         </div>
                      
-                     <div class="deepheader" id="detail_d52045e2787">
-                        <h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> indien Artikel is onderverdeeld in Leden, annotaties alleen op Leden</h7>
+                     <div class="deepheader" id="detail_d50981e2680">
+                        <h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> TPOD2060</h7>
                         
                         <table style="width: 100%;">
                            <colgroup style="width: 30%;"></colgroup>
                            <colgroup style="width: 70%;"></colgroup>
                            <tbody>
                               <tr>
-                                 <th>OCL</th>
-                                 <td>Deze constraint houdt in dat als er een Juridische regel is die (via een Regeltekst)
-                                    verwijst naar een Lid in een Artikel, er geen verwijzingen mogen voorkomen die verwijzen
-                                    naar het Artikel waarin dat Lid voorkomt. Kortom indien het artikel is onderverdeeld
-                                    in Leden, dan mag er alleen geannoteerd worden op Leden.</td>
+                                 <th>Natuurlijke taal</th>
+                                 <td> Als een Artikel is onderverdeeld in Leden zijn annotaties alleen toegestaan op Leden.
+                                    </td>
                               </tr>
                            </tbody>
                         </table>
@@ -2792,6 +2680,15 @@
                               <tr>
                                  <th>Naam</th>
                                  <td>naam</td>
+                              </tr>
+                              <tr>
+                                 <th>Definitie</th>
+                                 <td>
+                                    
+                                    
+                                    <p> Mensleesbare beschrijving waarmee de Norm wordt aangeduid.</p>
+                                    
+                                    </td>
                               </tr>
                               <tr>
                                  <th>Formaat</th>
@@ -2835,7 +2732,7 @@
                                  <td>
                                     
                                     
-                                    <p>De eenheid van de waarde, voluit geschreven</p>
+                                    <p>Aanduiding van de eenheid waarin de kwantitatieve waarde van de Norm wordt uitgedrukt.</p>
                                     
                                     </td>
                               </tr>
@@ -2890,7 +2787,7 @@
                                  <td>
                                     
                                     
-                                    <p>Het type van de norm.</p>
+                                    <p>Nadere typering van de Norm volgens de waardelijst.</p>
                                     
                                     </td>
                               </tr>
@@ -2912,14 +2809,6 @@
                                     <p>Het type/soort norm, zoals bijvoorbeeld een maximumbouwhoogte.</p>
                                     
                                     </td>
-                              </tr>
-                              <tr>
-                                 <th>Indicatie classificerend</th>
-                                 <td>Nee</td>
-                              </tr>
-                              <tr>
-                                 <th>Mogelijk geen waarde</th>
-                                 <td>Nee</td>
                               </tr>
                               <tr>
                                  <th>Indicatie identificerend</th>
@@ -2949,8 +2838,8 @@
                                  <td>
                                     
                                     
-                                    <p>Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd
-                                       moet worden en door het bevoegd gezag bedoeld is.</p>
+                                    <p>Vastlegging van de manier waarop de begrenzing van de Locatie(s) voor deze Juridische
+                                       regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is.</p>
                                     
                                     </td>
                               </tr>
@@ -12819,7 +12708,7 @@
       </section>
       <section id="lis" class="normative">
          <h2>Inhoud van waardelijsten</h2>
-         <!--MIMCM-dso-cim-ow-1.0-0-20230213-20250630-154119 imvertor 4.3.0-->
+         <!--MIMCM-dso-cim-ow-1.0-0-20230213-20250912-120635 imvertor 4.4.0-->
          <section>
             <h3>Referentielijst inhoud   </h3>
             <section id="detail_class_Artikelstructuur_Activiteitengroep">
@@ -12839,10 +12728,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_Artikelstructuur_Eenheid">
                <h4>Referentielijst  Eenheid</h4>
@@ -12860,10 +12745,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_Artikelstructuur_Typenorm">
@@ -12883,10 +12764,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_Artikelstructuur_Omgevingsnormgroep">
                <h4>Referentielijst  Omgevingsnormgroep</h4>
@@ -12904,10 +12781,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_Artikelstructuur_Thema">
@@ -12927,10 +12800,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_Artikelstructuur_Omgevingswaardegroep">
                <h4>Referentielijst  Omgevingswaardegroep</h4>
@@ -12948,10 +12817,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_Artikelstructuur_Adressaat">
@@ -12971,10 +12836,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_Artikelstructuur_InstrumentType">
                <h4>Referentielijst  Instrument­Type</h4>
@@ -12993,10 +12854,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_Artikelstructuur_Activiteitregelkwalificatie">
                <h4>Referentielijst  Activiteitregelkwalificatie</h4>
@@ -13011,13 +12868,11 @@
                            
                            <ol></ol>
                            
+                           Data locatie: <a href="urn:imow:Activiteitregel">urn:imow:Activiteitregel</a>
+                           
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_Artikelstructuur_Idealisatie">
@@ -13033,13 +12888,11 @@
                            
                            <ol></ol>
                            
+                           Data locatie: <a href="urn:imow:Idealisatie">urn:imow:Idealisatie</a>
+                           
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Beperkingengebiedgroep">
@@ -13059,10 +12912,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Bodemgroep">
                <h4>Referentielijst  Bodemgroep</h4>
@@ -13080,10 +12929,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Bouwgroep">
@@ -13103,10 +12948,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Defensiegroep">
                <h4>Referentielijst  Defensiegroep</h4>
@@ -13124,10 +12965,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Energievoorzieninggroep">
@@ -13147,10 +12984,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Erfgoedgroep">
                <h4>Referentielijst  Erfgoedgroep</h4>
@@ -13168,10 +13001,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Externeveiligheidgroep">
@@ -13191,10 +13020,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Functiegroep">
                <h4>Referentielijst  Functiegroep</h4>
@@ -13212,10 +13037,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Geluidgroep">
@@ -13235,10 +13056,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Geurgroep">
                <h4>Referentielijst  Geurgroep</h4>
@@ -13256,10 +13073,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Landschapgroep">
@@ -13279,10 +13092,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Leidinggroep">
                <h4>Referentielijst  Leidinggroep</h4>
@@ -13300,10 +13109,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Luchtgroep">
@@ -13323,10 +13128,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Mijnbouwgroep">
                <h4>Referentielijst  Mijnbouwgroep</h4>
@@ -13344,10 +13145,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Natuurgroep">
@@ -13367,10 +13164,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Recreatiegroep">
                <h4>Referentielijst  Recreatiegroep</h4>
@@ -13388,10 +13181,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Ruimtelijkgebruikgroep">
@@ -13411,10 +13200,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Verkeergroep">
                <h4>Referentielijst  Verkeergroep</h4>
@@ -13433,10 +13218,6 @@
                      </tr>
                   </tbody>
                </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
-               </table>
                </section>
             <section id="detail_class_GebiedsAanwijzing_Waterenwatersysteemgroep">
                <h4>Referentielijst  Water-en-watersysteemgroep</h4>
@@ -13454,10 +13235,6 @@
                            </td>
                      </tr>
                   </tbody>
-               </table>
-               
-               <table style="width: 100%;">
-                  <tbody></tbody>
                </table>
                </section>
          </section>
