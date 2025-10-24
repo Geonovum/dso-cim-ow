@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><!--MIMCM-dso-cim-ow-1.0-0-20230213-20251024-115010 imvertor 4.4.0--><section id="global_packages"><h3>Model   dso-cim-ow</h3><section id="EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4"><h4>   OW-OP - overzicht</h4><div class="imageinfo overview"><figure class="uml-diagram"><img id="EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4" src="data/Images/EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4.png" usemap="#imagemap-EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4" alt="Diagram: OW-objecten maken een Regeling machine leesbaar en horen altijd bij precies één Regeling. OP-objectAnnotatie objecten zij OW-objecten die een 1 op 1 koppeling met een wId element in een Regeling hebben. Alle andere OW-objecten die bij de Regeling horen zijn via relaties aan de OP-objectannotatie en dus aan een DocumentComponent gekoppeld. Er zijn twee soorten annotaties: In Regelingen met artikelstructuur worden RegeltekstAnnotaties gebruikt die altijd naar een Artikel of Lid en verwijzen. In regelingen met een vrije-tekststrutuur verwijst een OP-objectannotatie altijd naar een Divisie of Divisietekst"><figcaption> ‒ Diagram: OW-OP</figcaption></figure><map name="imagemap-EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4"><area shape="rect" alt="OW-object" coords="227,78,435,200" href="#global_class_OWaanlevering_OWobject"><area shape="rect" alt="VrijetekstAnnotatie" coords="330,420,544,542" href="#global_class_Vrijetekststructuur_VrijetekstAnnotatie"><area shape="rect" alt="RegeltekstAnnotatie" coords="134,420,301,531" href="#global_class_Artikelstructuur_RegeltekstAnnotatie"><area shape="rect" alt="OP-objectAnnotatie" coords="227,264,404,317" href="#global_class_OWaanlevering_OPobjectAnnotatie"></map><p>
+<!DOCTYPE HTML><section id="cat" class="normative"><h2>Gegevensdefinitie</h2><!--MIMCM-dso-cim-ow-1.0-0-20230213-20251024-115934 imvertor 4.4.0--><section id="global_packages"><h3>Model   dso-cim-ow</h3><section id="EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4"><h4>   OW-OP - overzicht</h4><div class="imageinfo overview"><figure class="uml-diagram"><img id="EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4" src="data/Images/EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4.png" usemap="#imagemap-EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4" alt="Diagram: OW-objecten maken een Regeling machine leesbaar en horen altijd bij precies één Regeling. OP-objectAnnotatie objecten zij OW-objecten die een 1 op 1 koppeling met een wId element in een Regeling hebben. Alle andere OW-objecten die bij de Regeling horen zijn via relaties aan de OP-objectannotatie en dus aan een DocumentComponent gekoppeld. Er zijn twee soorten annotaties: In Regelingen met artikelstructuur worden RegeltekstAnnotaties gebruikt die altijd naar een Artikel of Lid en verwijzen. In regelingen met een vrije-tekststrutuur verwijst een OP-objectannotatie altijd naar een Divisie of Divisietekst"><figcaption> ‒ Diagram: OW-OP</figcaption></figure><map name="imagemap-EAID_E3A46D6F_3ED0_4808_82AD_D7173DDFDAC4"><area shape="rect" alt="OW-object" coords="227,78,435,200" href="#global_class_OWaanlevering_OWobject"><area shape="rect" alt="VrijetekstAnnotatie" coords="330,420,544,542" href="#global_class_Vrijetekststructuur_VrijetekstAnnotatie"><area shape="rect" alt="RegeltekstAnnotatie" coords="134,420,301,531" href="#global_class_Artikelstructuur_RegeltekstAnnotatie"><area shape="rect" alt="OP-objectAnnotatie" coords="227,264,404,317" href="#global_class_OWaanlevering_OPobjectAnnotatie"></map><p>
                         <p>OW-objecten maken een Regeling machine leesbaar en horen altijd bij precies één Regeling.  OP-object­Annotatie objecten zij OW-objecten die een 1 op 1 koppeling met een w­Id element in een Regeling hebben. Alle andere OW-objecten die bij de Regeling horen zijn via relaties aan de OP-objectannotatie en dus aan een Document­Component gekoppeld.</p>
                         <p>Er zijn twee soorten annotaties: </p>
                         <p>In Regelingen met artikelstructuur worden Regeltekst­Annotaties gebruikt die  altijd naar een Artikel of Lid en verwijzen. In regelingen met een vrije-tekststrutuur verwijst een OP-objectannotatie altijd naar een Divisie of Divisietekst</p>
@@ -255,11 +255,11 @@ Het betreft hier juridische regel die instructie geeft aan andere overheden, ger
                
                <h6>Overzicht constraints  </h6>
                   <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><th>Uitleg</th></tr><tr><th>
-                           <a class="link" href="#detail_d51273e2779">
+                           <a class="link" href="#detail_d51133e2639">
                               indien Artikel is onderverdeeld in Leden, annotaties alleen op Leden
                            </a>
                         </th><td></td></tr><tr><th>
-                           <a class="link" href="#detail_d51273e2792">
+                           <a class="link" href="#detail_d51133e2652">
                               één type Juridische regel per Regeltekst
                            </a>
                         </th><td></td></tr></tbody></table>
@@ -618,96 +618,76 @@ Het betreft hier juridische regel die instructie geeft aan andere overheden, ger
                         IMOW
                      </td></tr><tr><th>Datum opname</th><td>
                         19-7-2019
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Activiteitengroep</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitengroep" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitengroep</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Eenheid"><h5>Referentielijst   Eenheid</h5>
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Eenheid</td></tr><tr><th>Herkomst</th><td>
                         IMOW
                      </td></tr><tr><th>Datum opname</th><td>
                         19-7-2019
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Eenheid</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Typenorm"><h5>Referentielijst   Typenorm</h5>
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Typenorm</td></tr><tr><th>Herkomst</th><td>
                         IMOW
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Activiteitengroep</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Typenorm" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Typenorm</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Omgevingsnormgroep"><h5>Referentielijst   Omgevingsnormgroep</h5>
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Omgevingsnormgroep</td></tr><tr><th>Herkomst</th><td>
                         IMOW
                      </td></tr><tr><th>Datum opname</th><td>
                         19-7-2019
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Omgevingsnormgroep</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Thema"><h5>Referentielijst   Thema</h5>
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Thema</td></tr><tr><th>Herkomst</th><td>
                         IMOW
                      </td></tr><tr><th>Datum opname</th><td>
                         19-7-2019
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Thema</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Omgevingswaardegroep"><h5>Referentielijst   Omgevingswaardegroep</h5>
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Omgevingswaardegroep</td></tr><tr><th>Herkomst</th><td>
                         IMOW
                      </td></tr><tr><th>Datum opname</th><td>
                         19-7-2019
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Omgevingswaardegroep</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingswaardegroep" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingswaardegroep</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Adressaat"><h5>Referentielijst   Adressaat</h5>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Adressaat</td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Adressaat</td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Adressaat" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Adressaat</a>
                      </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_InstrumentType"><h5>Referentielijst   Instrument­Type</h5>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Instrument­Type</td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Instrument­Type</td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/InstrumentType" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Instrument­Type</a>
                      </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Activiteitregelkwalificatie"><h5>Referentielijst   Activiteitregelkwalificatie</h5>
-               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Activiteitregelkwalificatie</td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Activiteitregel</td></tr></tbody></table>
+               <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Activiteitregelkwalificatie</td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie</a>
+                     </td></tr></tbody></table>
             </section>
             <section id="global_class_Artikelstructuur_Idealisatie"><h5>Referentielijst   Idealisatie</h5>
                <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>Naam</th><td>Idealisatie</td></tr><tr><th>Herkomst</th><td>
                         IMOW
                      </td></tr><tr><th>Datum opname</th><td>
                         19-7-2019
-                     </td></tr><tr><th>Toelichting</th><td>
-                        
-                              <p>Toegestane waardes zijn te vinden in de stelselcatalogus: https://stelselcatalogus.omgevingswet.overheid.nl/waardelijsten/overview</p>
-                           
-                     </td></tr><tr><th>Data locatie</th><td>urn:imow:Idealisatie</td></tr></tbody></table>
+                     </td></tr><tr><th>Data locatie</th><td>
+                        <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Idealisatie" target="_blank">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Idealisatie</a>
+                     </td></tr></tbody></table>
             </section>
          </section><section><h4>Gegevensgroeptypen   </h4>
             <section id="global_class_Artikelstructuur_ActiviteitLocatieaanduiding"><h5>Gegevensgroep   Activiteit­Locatieaanduiding</h5>
@@ -951,10 +931,10 @@ de som van de locatie van de juridische regels die verwijzen naar dezelfde regel
                                  
                            </td></tr><tr><th>Mogelijk geen waarde</th><td>Nee</td></tr></tbody></table>
                   </div>
-                  <div class="deepheader" id="detail_d51273e2779"><h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> indien Artikel is onderverdeeld in Leden, annotaties alleen op Leden</h7>
+                  <div class="deepheader" id="detail_d51133e2639"><h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> indien Artikel is onderverdeeld in Leden, annotaties alleen op Leden</h7>
                      <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>OCL</th><td>Deze constraint houdt in dat als er een Juridische regel is die (via een Regeltekst) verwijst naar een Lid in een Artikel, er geen verwijzingen mogen voorkomen die verwijzen naar het Artikel waarin dat Lid voorkomt. Kortom indien het artikel is onderverdeeld in Leden, dan mag er alleen geannoteerd worden op Leden.</td></tr></tbody></table>
                   </div>
-                  <div class="deepheader" id="detail_d51273e2792"><h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> één type Juridische regel per Regeltekst</h7>
+                  <div class="deepheader" id="detail_d51133e2652"><h7>Constraint details  <a href="#global_class_Artikelstructuur_RegeltekstAnnotatie">Regeltekst­Annotatie</a> één type Juridische regel per Regeltekst</h7>
                      <table style="width: 100%;"><colgroup style="width: 30%;"></colgroup><colgroup style="width: 70%;"></colgroup><tbody><tr><th>OCL</th><td>Er zijn drie subtypen van Juridische regels onderkend, namelijk: Regel voor iedereen, instructieregel en omgevingswaarderegel. Het is niet toegestaan twee van deze typen Juridische regel te vermengen in hetzelfde Artikel (Regeltekst).</td></tr></tbody></table>
                   </div>
                </section>
@@ -3849,13 +3829,13 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
             
             
             
-         </section></section></section><section id="lis" class="normative"><h2>Inhoud van waardelijsten</h2><!--MIMCM-dso-cim-ow-1.0-0-20230213-20251024-115010 imvertor 4.4.0--><section><h3>Referentielijst inhoud   </h3><section id="detail_class_Artikelstructuur_Activiteitengroep"><h4>Referentielijst  Activiteitengroep</h4>
+         </section></section></section><section id="lis" class="normative"><h2>Inhoud van waardelijsten</h2><!--MIMCM-dso-cim-ow-1.0-0-20230213-20251024-115934 imvertor 4.4.0--><section><h3>Referentielijst inhoud   </h3><section id="detail_class_Artikelstructuur_Activiteitengroep"><h4>Referentielijst  Activiteitengroep</h4>
             <table style="width: 100%;" class="list"><colgroup></colgroup><tbody><tr><td>
                      
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Activiteitengroep">urn:imow:Activiteitengroep</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitengroep">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitengroep</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Eenheid"><h4>Referentielijst  Eenheid</h4>
@@ -3864,7 +3844,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Eenheid">urn:imow:Eenheid</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Eenheid</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Typenorm"><h4>Referentielijst  Typenorm</h4>
@@ -3873,7 +3853,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Activiteitengroep">urn:imow:Activiteitengroep</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Typenorm">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Typenorm</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Omgevingsnormgroep"><h4>Referentielijst  Omgevingsnormgroep</h4>
@@ -3882,7 +3862,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Omgevingsnormgroep">urn:imow:Omgevingsnormgroep</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingsnormgroep</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Thema"><h4>Referentielijst  Thema</h4>
@@ -3891,7 +3871,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Thema">urn:imow:Thema</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Thema</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Omgevingswaardegroep"><h4>Referentielijst  Omgevingswaardegroep</h4>
@@ -3900,7 +3880,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Omgevingswaardegroep">urn:imow:Omgevingswaardegroep</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingswaardegroep">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Omgevingswaardegroep</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Adressaat"><h4>Referentielijst  Adressaat</h4>
@@ -3909,12 +3889,16 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Adressaat">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Adressaat</a>
+                     
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_InstrumentType"><h4>Referentielijst  Instrument­Type</h4>
             <table style="width: 100%;" class="list"><colgroup></colgroup><tbody><tr><td>
                      
                      
                         <ol></ol>
+                     
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/InstrumentType">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Instrument­Type</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Activiteitregelkwalificatie"><h4>Referentielijst  Activiteitregelkwalificatie</h4>
@@ -3923,7 +3907,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Activiteitregel">urn:imow:Activiteitregel</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Activiteitregelkwalificatie</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_Artikelstructuur_Idealisatie"><h4>Referentielijst  Idealisatie</h4>
@@ -3932,7 +3916,7 @@ Het gaat hierbij niet om de Kaart zoals bedoeld in het objecttype, maar om de ka
                      
                         <ol></ol>
                      
-                     Data locatie: <a href="urn:imow:Idealisatie">urn:imow:Idealisatie</a>
+                     Data locatie: <a href="https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Idealisatie">https://standaarden.omgevingswet.overheid.nl/id/waardelijst/Idealisatie</a>
                      
                   </td></tr></tbody></table>
          </section><section id="detail_class_GebiedsAanwijzing_Beperkingengebiedgroep"><h4>Referentielijst  Beperkingengebiedgroep</h4>
