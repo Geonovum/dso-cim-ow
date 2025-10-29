@@ -4,10 +4,10 @@ let respecConfig = {
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Conceptueel Informatiemodel Omgevingswet",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "wv",                   // Werkversie
+  //specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
-  //specStatus: "def",              // Vastgestelde versie
+  specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //specStatus: "ld",                // Levend document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
@@ -22,8 +22,8 @@ let respecConfig = {
   shortName: "dso-cim-ow",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2023-03-28",
-  //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
+  publishDate: "2025-10-29",
+  // versienummer
   publishVersion: "3.0",
   //previousVersion: "0.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 

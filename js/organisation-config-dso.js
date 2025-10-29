@@ -92,7 +92,7 @@ var organisationConfig = {
     "pubDomain",
     "/",
     "shortName",
-    "/",
+    "-",
     "publishDate",
   ],
   prevVersion: [

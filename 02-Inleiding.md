@@ -60,12 +60,12 @@ ontwikkel- als publicatieversies verwijzen.
 - [CIM-OI](https://geonovum.github.io/dso-cim-oi/): Conceptueel Informatiemodel Omgevingsinformatie.
 - [CIM-OP](https://docs.geostandaarden.nl/dso/dso-cim-op/): Conceptueel Informatiemodel Officiële publicaties.
 - [CIM-ORG](https://geonovum.github.io/dso-cim-org/): Conceptueel Informatiemodel (Overheids-)Organisaties.
-- [CIM-OW](https://geonovum.github.io/dso-cim-ow/): Conceptueel Informatiemodel Omgevingswet.
+- [CIM-OW](https://docs.geostandaarden.nl/dso-cim-ow/): Conceptueel Informatiemodel Omgevingswet.
 - [CIM-PDC](https://geonovum.github.io/dso-cim-pdc/): Conceptueel Informatiemodel Producten- en Dienstencatalogus.
 - [CIM-SWF](https://docs.geostandaarden.nl/dso/dso-cim-swf/): Conceptueel Informatiemodel Samenwerken.
 - [CIM-TR](https://geonovum.github.io/dso-cim-tr/): Conceptueel Informatiemodel Toepasbare regels.
 
-Alhoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er
+Hoewel elk conceptueel informatiemodel één informatiedomein afbeeldt, zijn er
 dwarsverbanden en afhankelijkheden tussen de verschillende domeinen. De
 conceptuele informatiemodellen worden derhalve in samenhang beheert en
 ontwikkelt, teneinde de semantische interoperabiliteit in en met het DSO te
