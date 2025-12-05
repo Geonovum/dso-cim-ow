@@ -1,37 +1,49 @@
 let respecConfig = {
   useLogo: true,
   useLabel: true,
-  // title is verplicht! Neem hier de titel van het document op ----------------------
+
+  // title is verplicht! Neem hieronder de titel van het document op
   title: "Conceptueel Informatiemodel Omgevingswet",
-  //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "wv",                   // Werkversie
+  //-- specStatus is verplicht! (activeer 1 van de volgende)
+  //specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
-  //specStatus: "ld",                // Levend document
-  //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
+
+  //-- specType is verplicht bij alle andere dan BASIS
   specType: "IM",                 // Informatie Model
-  //-- GW20240906: url naar base.css toegevoegd
-  nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
-  //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
+
+  //-- pubDomain is verplicht! (komt in de URL)
+  //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
   pubDomain: "dso",
+
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   license: "cc-by",                 // Attribution, met bronvermelding
-  //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
+
+  //-- shortName is verplicht! (komt in de URL: kies logische afkorting)
+  //-- Regel: shortName mag geen hoofdletters bevatten.
   shortName: "dso-cim-ow",
-  //-- publishDate is verplicht -------------------------------------------------------
-  //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
+  
+  //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
+	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
+
+  //-- publishDate is verplicht. Als je werkversie gekozen hebt  dan pakt Respec
+  //-- de pushdate maar de publishDate is nog steeds verplicht.
   publishDate: "2025-10-29",
-  // versienummer
+  
+  //-- publishVersion is verplicht. Hij mag wel leeg zijn [], maar niet de lege string zijn "".
   publishVersion: "3.0",
-  //previousVersion: "0.0.1",
-  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: null ,
-  previousMaturity: null,
+ 
+  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beide aan/uit! 
+  //previousPublishDate: "2014-05-01",
+  //previousMaturity: "CV",
+
+  //-- Deze is tijdelijk omdat de oude versie elders staat.
   prevVersion: ["https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.2.0.pdf"],
-  //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
-  //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
+
+  //-- de namen van de Editor(s) / Redacteur(en)
+  //-- vul in: per Editor: name:, company:, companyURL:
   editors:
     [
       {
@@ -40,8 +52,9 @@ let respecConfig = {
         companyURL: "https://www.geonovum.nl",
       }
     ],
-  //-- de namen van de auteur(s) ------------------------------------------------------
-  //-- vul in: per auteur: name:, company:, companyURL: -------------------------------
+
+  //-- de namen van de auteur(s) 
+  //-- vul in: per auteur: name:, company:, companyURL: 
   authors:
     [
       {
@@ -50,11 +63,17 @@ let respecConfig = {
         companyURL: "https://www.geonovum.nl",
       }
     ],
-  //neem hier de URL van de github repository op waar het respec document in staat
+
+  //-- Vul de github URL in.
+  //-- neem hier de URL van de github repository op waar het respec document in staat
   github: "https://github.com/Geonovum/dso-cim-ow",
- 
-    //-- localBiblio: lokale bibliografie, voor verwijzigingen
-  //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
+
+
+  
+  // Lokale lijst voor bibliografie
+  // - Kijk eerst naar de beschikbare www.specref.org .
+  // - Kijk daarna in de organisatieconfig.
+  // - Voeg dan pas hieronder toe.
   localBiblio: 
   {
     Basisgeometrie: {
@@ -97,5 +116,5 @@ let respecConfig = {
       publisher: "KOOP",
       date: "2023-02-17"
     },
-  },
+  }
 };
