@@ -30,7 +30,7 @@ let respecConfig = {
 
   //-- publishDate is verplicht. Als je werkversie gekozen hebt  dan pakt Respec
   //-- de pushdate maar de publishDate is nog steeds verplicht.
-  publishDate: "2025-10-29",
+  publishDate: "2026-01-09",
   
   //-- publishVersion is verplicht. Hij mag wel leeg zijn [], maar niet de lege string zijn "".
   publishVersion: "3.0",
