@@ -22,6 +22,9 @@ jobs:
         run: |
           mkdir -p $CHECK_DIR/site
           cp snapshot.html $CHECK_DIR/site/
+          if [ -d data ]; then
+            cp -R data $CHECK_DIR/site/
+          fi
           if [ -d media ]; then
             cp -R media $CHECK_DIR/site/
           fi
