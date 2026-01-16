@@ -15,10 +15,10 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Download snapshot artefact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: snapshot
           path: .
@@ -142,7 +142,7 @@ jobs:
           echo "Metadata en folder-path gevalideerd en opgeslagen"
 
       - name: Checkout private docs
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: Geonovum/docs.geostandaarden.nl
           token: ${{ secrets.GH_PUSH_TOKEN }}
@@ -205,7 +205,7 @@ jobs:
 
       - name: Create PR naar main bij release
         if: ${{ github.event.release.prerelease != true }}
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GH_PUSH_TOKEN }}
           path: docs.geostandaarden.nl
