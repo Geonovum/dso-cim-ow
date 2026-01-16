@@ -24,6 +24,7 @@ jobs:
           cp snapshot.html $CHECK_DIR/site/
           if [ -d data ]; then
             cp -R data $CHECK_DIR/site/
+            rm -f $CHECK_DIR/site/data/*html
           fi
           if [ -d media ]; then
             cp -R media $CHECK_DIR/site/
