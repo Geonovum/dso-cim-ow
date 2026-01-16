@@ -46,7 +46,7 @@ conceptueel informatiemodel (CIM) dat richting geeft aan de uitwerking van het
 informatiedomein en de samenhang met aanpalende domeinen borgt.
 
 <figure id="Figure-CIM-Overzicht">
-<img src="media/CIM-Overzicht.png" alt="">
+<img src="media/CIM-Overzicht.png" alt="overzicht Conceptuele modellen DSO">
 <figcaption>Overzicht van alle Conceptuele Informatiemodellen in het DSO</figcaption>
 </figure>
 
