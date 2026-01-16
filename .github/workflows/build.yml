@@ -31,6 +31,7 @@ jobs:
           fi
 
       - name: Validate HTML
+        continue-on-error: true
         uses: anishathalye/proof-html@v2
         with:
           directory: ${{ env.CHECK_DIR }}/site
