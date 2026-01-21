@@ -5,10 +5,10 @@ let respecConfig = {
   // title is verplicht! Neem hieronder de titel van het document op
   title: "Conceptueel Informatiemodel Omgevingswet",
   //-- specStatus is verplicht! (activeer 1 van de volgende)
-  //specStatus: "wv",                 // Werkversie
+  specStatus: "wv",                 // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
-  specStatus: "def",              // Vastgestelde versie
+  //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
 
   //-- specType is verplicht bij alle andere dan BASIS
@@ -36,11 +36,8 @@ let respecConfig = {
   publishVersion: "3.0",
  
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beide aan/uit! 
-  //previousPublishDate: "2014-05-01",
-  //previousMaturity: "CV",
-
-  //-- Deze is tijdelijk omdat de oude versie elders staat.
-  prevVersion: ["https://geonovum.github.io/TPOD/CIMOW/CIMOW_v2.2.0.pdf"],
+  previousPublishDate: "2026-01-09",
+  previousMaturity: "def",
 
   //-- de namen van de Editor(s) / Redacteur(en)
   //-- vul in: per Editor: name:, company:, companyURL:
